@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScriptExtensionGroup>
+
+<Category Name = "Checkpoints">
+
+	<ScriptExtension Name = "HTML Table Checkpoint" Author = "Robert Martin" Version = "0.5">
+	  <Script Name = "htmlTableCode.js">
+	  	<RecordAction Name = "HTML Table Checkpoint" Icon = "htcIcon.bmp" Routine = "RecordExecute"/>
+	  	<DesignTimeAction Name = "HTML Table Checkpoint" Icon = "htcIcon.bmp" Routine = "DesignTimeExecute"/>
+			<RuntimeObject Name = "HTMLTableCheckpoint">
+	  		<Method Name = "Compare" Routine = "CompareHTMLObject"/>
+			</RuntimeObject>
+	  </Script>
+	  <Description>
+	    Provides support for HTML table checkpoints.
+	  </Description>
+	</ScriptExtension>
+
+</Category>
+
+
+</ScriptExtensionGroup>
